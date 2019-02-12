@@ -10708,7 +10708,22 @@ header .container .header-right ul li a {
   color: #1b3c59;
 }
 
-h1 {
-  color: red;
+.wrapper {
+  padding: 40px 0;
+  border-bottom: 1px solid #1b3c59;
+}
+
+.wrapper h2 small {
+  font-size: 15px;
+  color: #1b3c59;
+}
+
+.wrapper h3 {
+  font-size: 20px;
+}
+
+.widget {
+  padding: 30px 0;
+  border-bottom: 1px solid #1b3c59;
 }
 

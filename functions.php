@@ -21,5 +21,19 @@
     add_action('after_setup_theme', 'massi_setup');
   }
 
+  if (!function_exists('massi_widgets_init')) {
+
+    function massi_widgets_init() {
+
+      register_sidebar(array(
+        'name'          => 'massi-sidebar',
+        'id'            => 'massi-sidebar'
+      ));
+    }
+
+    add_action('widgets_init', 'massi_widgets_init');
+  }
+
+
 
 ?>
