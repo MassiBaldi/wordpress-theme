@@ -10668,6 +10668,46 @@ a.text-dark:focus {
   }
 }
 
+header {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #1b3c59;
+}
+
+header .container {
+  height: 100%;
+}
+
+header .container .header-left,
+header .container .header-right {
+  float: left;
+  height: 100%;
+}
+
+header .container .header-left img {
+  height: 50px;
+  margin-top: 10px;
+}
+
+header .container .header-right {
+  float: right;
+  line-height: 70px;
+}
+
+header .container .header-right ul {
+  list-style: none;
+  text-align: right;
+}
+
+header .container .header-right ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header .container .header-right ul li a {
+  color: #1b3c59;
+}
+
 h1 {
   color: red;
 }
