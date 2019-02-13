@@ -5,9 +5,9 @@
       <div class="col-8">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-          <div class="wrapper">
+          <div class="post">
             <h2>
-              <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+              <a href="<?php the_permalink(); ?>">
                 <?php the_title(); ?>
               </a>
               <small><?php the_time('j F Y'); ?></small>
@@ -22,7 +22,7 @@
           <p>Nessun articolo disponibile</p>
         <?php endif; ?>
       </div>
-      <div class="col-4">
+      <div class="col-4 sidebar">
         <?php get_sidebar(); ?>
       </div>
     </div>
